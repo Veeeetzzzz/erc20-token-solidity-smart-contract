@@ -15,3 +15,6 @@ One compiled - your ready to deploy, you can either connect to Metamask (injecte
 If there were no issues - your token will be delpoyed to the Metamask or selected enviroment and the address you specified.
 
 ![image](https://user-images.githubusercontent.com/40268197/197520554-0b42b920-7f7b-47dd-b7bf-f86777d8cd6f.png)
+
+# Credits
+90% of this was already done, so all credits to Solidity and Remix teams. I just made it easier to launch your own sh*tcoin. Don't rug innocent users (sandwhiching malicious bots is fine) - I can't stop you but don't quote me as the creator. I'm just a guy who likes breaking and then fixing things.

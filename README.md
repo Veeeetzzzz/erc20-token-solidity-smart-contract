@@ -2,7 +2,7 @@
 Make your own token on the Ethereum network with these boilerplate smart contracts. Create a supply of tokens for anything you want, choose the right boilerplate for you or use a combination of code to make it bespoke.
 # Pre-requisites
 - Metamask
-- Remix IDE
+- Remix IDE - use https://remix.ethereum.org/ if you want to use Metamask otherwise use your own EVM enviroment.
 # Deployment to testnet (aka test) and mainnet (aka production)
 After changing the contract (.sol) files to your liking, open the file in Remix IDE. Compile the file.
 

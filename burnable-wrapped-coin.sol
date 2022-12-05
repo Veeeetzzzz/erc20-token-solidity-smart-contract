@@ -43,6 +43,9 @@ contract BurnableWrappedCoin {
         // First, check that the sender has enough Burnable Wrapped Coin to burn
         require(balanceOf[msg.sender] >= amount, "Sender does not have enough Burnable Wrapped Coin to burn");
 
+        // Check that the amount of Burnable Wrapped Coin being burned is the correct amount to redeem the ETH
+        require(amount == 1 ether * (10 ** uint256(decimals)), "Incorrect amount of Burnable Wrapped Coin being burned");
+
         // Burn the Burnable Wrapped Coin and send the ETH to the sender's address
         balanceOf[msg.sender] -= amount;
         totalSupply -= amount;
